@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio Edgar</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <img src="img/logoE.png" alt="" class="imginicio">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#contsobre" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"></i></a>
+                        <a href="#"></i></a>
+                        <a href="#"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Mesino Vega Edgar Said</h2>
+                <p class="descripcion">Desarrollador web | PHP | Javascript </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <br>
+    <div id="contsobre">   
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/logoE.png" class="imgsobremi" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Edgar Said Mesino Vega</span> </h2>
+                <h3>Desarrollador Web</h3>
+                <p> Mi pasión por la tecnología y mi constante deseo de aprendizaje me impulsan a crear soluciones innovadoras y afrontar desafíos con entusiasmo. 
+                    Cada proyecto es una oportunidad para expresar la dedicación por mi trabajo.
+                </p>
+
+                <p class="titulo-seccion">Datos de contacto</p>
+                <p class="contactop"> <span class="contacto">Telefono: </span>  7471298430</p>
+                <p class="contactop"> <span class="contacto">Email: </span> mesinovegaedgar@gmail.com</p>
+            </div>
+        </section>  
+        <br>
+    </div>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS HABILIDADES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <div class="contenedor-foto">
+                    <img src="img/css.png" class="imghabilidades" alt="">
+                </div>
+
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Desarrollo</h4>
+                <div class="contenedor-foto">
+                    <img src="img/html5.png" class="imghabilidades" alt="">
+                    <img src="img/js.png" class="imghabilidades" alt="">                    
+                </div>
+                <div class="contenedor-foto">
+                    <img src="img/php2.png" class="imghabilidades" alt="">
+                    <img src="img/react.png" class="imghabilidades" alt="">
+                    <img src="img/node.png" class="imghabilidades" alt="">
+                    <img src="img/sql2.png" class="imghabilidades" alt="">                    
+                </div>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseño Gráfico</h4>
+                <div class="contenedor-foto">
+                    <img src="img/illustrator.png" class="imghabilidades" alt="">
+                    <img src="img/photoshop.png" class="imghabilidades" alt="">
+                    <img src="img/clip.png" class="imghabilidades" alt="">                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+
+        <a href="https://edgarmesinovega.github.io/pokedex/" target="_blank"> 
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/pokedex.JPG" alt="">
+                    <div class="info">
+                        <h4>Pokedex</h4>
+                        <p>Consumo de API</p>
+                    </div>
+                </div>
+        </a>
+
+            <a href="https://edgarmesinovega.github.io/buscador-del-clima/" target="_blank"> 
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/clima.JPG" alt="">
+                    <div class="info">
+                        <h4>Buscador de Clima</h4>
+                        <p>Consumo de API meteorológica</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://catalogopeliculas--edgarsaid.000webhostapp.com" target="_blank">               
+                <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/peliculas.JPG" alt="">
+                    <div class="info">
+                        <h4>Peliculas</h4>
+                        <p>Consumo de API de peliculas</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
